@@ -18,12 +18,17 @@
  12. [REST API Tutorial][17] 全方位介绍 REST
  13. [HTTP 接口设计指北][18]
  14. [Web API Design][19] 接口就是开发人员提供的“界面”，用户体验在接口设计上同样重要，在线查看 [2012 版][20]、[2013 版][21]
+ 15. [架构风格与基于网络应用软件的架构设计][49] 原汁原味的博士论文，由李锟翻译，有经验的同学可以挑战一下
+ 16. [Microsoft REST API Guidelines][50] 微软官方的 REST API 设计指南，值得参考
 
 #### 知识碎片 ####
 
  1. [理解 HTTP 幂等性][23] 讲得很清楚，推荐
  2. [浅析远程过程调用 RPC][24] 告诉你什么是 RPC
  3. [httpstatuses][25] 一眼看完所有常用的 HTTP 状态码，还可以看详细含义
+ 3. [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) From Wikipedia
+ 3. [HTTP Status Codes](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384325(v=vs.85).aspx) From MSDN Microsoft
+ 3. [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
  4. [json-api][26] 对 API 应该如何利用好 JSON 的一些建议
  5. [介绍 JSON][27] 无论如何都应该读一遍
  6. [decision-graph.svg][28] 一张大图展示整个 REST API 的验证过程，及各种状态码出现的时机
@@ -41,6 +46,7 @@
  3. [Enchant REST API][36]
  4. [Coinbase][37] API 设计的挺好的，包括官网提供的接口客户端，都是具有参考意义的
  5. [OpenNMS Wiki ReST API][38]
+ 6. [REST API 使用详解][51] Lean Cloud 中讲解 REST API 的使用，还集成 [Swagger UI](https://swagger.io/swagger-ui/) 在线调试工具，[点击查看](https://leancloud.cn/dashboard/apionline/index.html)。
 
 关于例子，实在是太多了，在有时间的时候，多观察别人的设计，有利于写出好的 API。
 
@@ -67,7 +73,7 @@
  2. [RESTful - 知乎][47] 我也有作答~~
 
 #### 其他 ####
- 1. [MarkdownPad2][48] Window 下使用 Markdown 语法编写文档。等习惯了它的语法，可以直接使用任何一款文本编辑器直接写了
+ 1. [MarkdownPad2][48] Windows 下使用 Markdown 语法编写文档。等习惯了它的语法，可以直接使用任何一款文本编辑器直接写了
 
 
   [1]: http://codeplanet.io/principles-good-restful-api-design/
@@ -82,7 +88,7 @@
   [10]: http://www.ruanyifeng.com/blog/2011/09/restful.html
   [11]: http://www.ruanyifeng.com/blog/2014/05/restful_api.html
   [12]: http://novoland.github.io/%E8%AE%BE%E8%AE%A1/2015/08/17/Restful%20API%20%E7%9A%84%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83.html
-  [13]: http://zhuanlan.zhihu.com/prattle/20034107
+  [13]: https://zhuanlan.zhihu.com/p/20034107
   [14]: https://www.ibm.com/developerworks/cn/webservices/0907_rest_soap/
   [15]: http://www.ibm.com/developerworks/cn/web/1103_chenyan_restapi/
   [16]: https://restful-api-design.readthedocs.org/en/latest/
@@ -118,3 +124,6 @@
   [46]: https://groups.google.com/forum/?fromgroups#!forum/api-craft
   [47]: http://www.zhihu.com/topic/19579308/top-answers
   [48]: http://markdownpad.com/
+  [49]: http://yuedu.baidu.com/ebook/780324fbf121dd36a32d8269
+  [50]: https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md
+  [51]: https://leancloud.cn/docs/rest_api.html
